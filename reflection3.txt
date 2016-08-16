@@ -1,0 +1,38 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+  when the work is ready for public/sharing for others 
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    
+Commands:
+
+git remote  |    Show all remote locations for the repository
+git remote add origin url |     Add a new remote location for the repository. Origin is the default name to use when you create only one remote location. Url should be the https url to the github repository.
+git remove -v  |    Outputs the remote locations with verbose information (fetch and push urls)
+git push origin master  |    Push the master branch to the remote location origin.
+git pull origin master  |    Get the master branch from the remote location origin.
+git pull origin master  |    = Git fetch origin + git merge master origin/master
+git fetch origin  |    Get the changes from the remote location into the (hidden?) origin/master branch
