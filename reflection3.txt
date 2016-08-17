@@ -18,7 +18,7 @@ use one instead of another?
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
+    This way git knows what is version on remote. If someone change the remote copy after the last known local copy. and if local user also made change in same place than git and guide you about the manual merge.
     
 
 How would you collaborate without using Git or GitHub?  What would be easier,
