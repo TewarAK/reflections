@@ -23,7 +23,7 @@ stored locally?
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
-
+    I used to give manual copy of google drive for review. It would be easier to use Git for collaboration purposes. 
     
 
 When would you want to make changes in a separate branch rather than directly in
