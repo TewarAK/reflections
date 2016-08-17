@@ -28,6 +28,7 @@ and what would be harder?
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
+    When i am working on some experiment work/ or fixing the bug. Benefit is my work doesnot contaminate the last working copy of code in master. 
 
     
 Commands:
